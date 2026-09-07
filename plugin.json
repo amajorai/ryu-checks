@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.checks",
+  "version": "0.1.0",
+  "description": "A planning preview for defining UI, API, and agent-driven test cases. Test execution, persistence, scheduling, and external integrations are not connected yet.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-checks",
+  "repository": "https://github.com/amajorai/ryu-checks",
+  "keywords": ["testing", "quality", "e2e", "regression", "playwright", "api"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/checks",
+      "displayName": "Tests"
+    }
+  }
+}
